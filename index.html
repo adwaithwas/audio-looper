@@ -11,11 +11,12 @@
   <div class="controls">
     <button id="playBtn" disabled>▶️ Play</button>
     <button id="pauseBtn" disabled>⏸️ Pause</button>
+    <label for="volumeSlider">Volume:</label>
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
     <div>Loop Count: <span id="counter">0</span></div>
   </div>
 
   <audio id="audio" loop></audio>
-
   <script src="script.js"></script>
 </body>
 </html>
